@@ -4,8 +4,6 @@ Constraints that we cannot represent in the data model:
 - Structure of the identification code -  AAAATTNNN where AAAA is the year,
  TT the team type and NNN a sequential number.
 
-- All teams have exactly one pilot
-
 - Teams of specific types need to have a specific vehicle type
 
 - Car teams have a co-driver
