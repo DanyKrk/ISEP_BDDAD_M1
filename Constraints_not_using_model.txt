@@ -1,0 +1,27 @@
+Constraints that we cannot represent in the data model:
+
+
+- Structure of the identification code -  AAAATTNNN where AAAA is the year,
+ TT the team type and NNN a sequential number.
+
+- All teams have exactly one pilot
+
+- Teams of specific types need to have a specific vehicle type
+
+- Car teams have a co-driver
+
+- Truck teams have one or two co-drivers
+
+- Number of cylinders in cars is an integer between 3 and 8
+
+- Nationality of the team has to be one (any) of the nationalities of its
+members
+
+- In an edition, each of the participants can only be in one team
+
+- Penalty duration has to be smaller or equal to the max penalty time 
+for it's type
+
+
+
+
