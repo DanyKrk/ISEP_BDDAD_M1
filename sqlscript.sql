@@ -100,7 +100,7 @@ create table stage
 stage_id int generated always as identity not null 
 , race_id int 
 , date_of date 
-, start_locatoin varchar(50) 
+, start_locatoin varchar2(50) 
 , end_location varchar2(50) 
 , stage_number int 
 , constraint stage_pk primary key 
